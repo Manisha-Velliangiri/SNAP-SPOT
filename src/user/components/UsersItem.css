@@ -1,0 +1,49 @@
+.users-item {
+    margin: 1rem;
+    width: calc(45% - 2rem);
+    min-width: 17.5rem;
+  }
+  
+  .users-item a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+  }
+  
+  .users-item a:hover,
+  .users-item a:active {
+    background: #ffd900;
+  }
+  
+  .users-item__content {
+    padding: 0;
+  }
+  
+  .users-item__image {
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1rem;
+  }
+  
+  .users-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #ffd900;
+  }
+  
+  .users-item:hover h2,
+  .users-item:active h2,
+  .users-item:hover h3,
+  .users-item:active h3 {
+    color: #292929;
+  }
+  
+  .users-item__info h3 {
+    margin: 0;
+  }

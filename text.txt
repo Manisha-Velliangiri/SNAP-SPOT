@@ -1,0 +1,4 @@
+the card component is a presentation component.
+
+1)presentation components[dumb components]
+2)stateful components
