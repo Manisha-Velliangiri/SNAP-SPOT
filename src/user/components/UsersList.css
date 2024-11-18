@@ -1,11 +1,70 @@
-.users-list{
-    list-style: none;
-    margin: 0 auto;
-    padding: 0%;
-    width: 90%;
-    max-width: 50rem;
+/* Styling for the overall users list */
+.users-list {
+    list-style: none; /* Remove bullet points */
+    margin: 0 auto; /* Center the list */
+    padding: 0;
+    width: 70%; /* Full width for the list */
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
+    flex-direction: column; /* Ensure items are displayed one by one */
+    align-items: center; /* Center the items */
+  }
+  
+  /* Styling for each user item */
+  .users-item {
+    margin: 1rem;
+    width: calc(45% - 2rem); /* Keep same width as original style */
+    min-width: 17.5rem; /* Minimum width to ensure it looks good on small screens */
+  }
+  
+  /* Link styling for each user */
+  .users-item a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    padding: 1rem;
+    color: white;
+    background: #292929;
+    transition: background 0.3s ease;
+  }
+  
+  /* Hover and active state for the link */
+  .users-item a:hover,
+  .users-item a:active {
+    background: #ffd900;
+  }
+  
+  /* Reset padding for the content area */
+  .users-item__content {
+    padding: 0;
+  }
+  
+  /* Image styling */
+  .users-item__image {
+    width: 4rem; /* Keep the image width */
+    height: 4rem; /* Same height */
+    margin-right: 1rem; /* Space between image and text */
+  }
+  
+  /* Heading styling */
+  .users-item__info h2 {
+    font-size: 1.5rem;
+    margin: 0 0 0.5rem 0;
+    font-weight: normal;
+    color: #ffd900;
+  }
+  
+  /* Hover and active state for the heading */
+  .users-item:hover h2,
+  .users-item:active h2,
+  .users-item:hover h3,
+  .users-item:active h3 {
+    color: #292929;
+  }
+  
+  /* Subtitle styling */
+  .users-item__info h3 {
+    margin: 0;
+  }
+  

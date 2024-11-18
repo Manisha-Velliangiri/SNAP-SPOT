@@ -6,27 +6,25 @@
   padding: 0;
 }
 
-.place-item__info {
-  padding: 1rem;
-  text-align: center;
-}
+
 
 .place-item__image {
   width: 100%;
-  height: 12.5rem;
+  height: 20.5rem;
   margin-right: 1.5rem;
 }
 
 .place-item__image img {
   width: 100%;
-  height: 100%;
+  height: 130%;
   object-fit: cover;
 }
 
 .place-item__info h2,
 .place-item__info h3,
 .place-item__info p {
-  margin: 0 0 0.5rem 0;
+
+  margin: 7 0 0.5rem 0;
 }
 
 .place-item__actions {
@@ -49,9 +47,27 @@
 }
 
 .map-container {
-  height: 15rem;
+  height: 10rem;
   width: 100%;
 }
+.place-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.place-item {
+  margin: 1rem;
+}
+.place-item__info{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:80px;
+    font-weight: 100;
+    background-color: whitesmoke;
+    text-align: center;
+    padding:5px;
+}
+
 
 @media (min-width: 768px) {
   .place-item__image {

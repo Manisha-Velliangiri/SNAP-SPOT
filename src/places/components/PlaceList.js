@@ -33,6 +33,7 @@ const PlaceList = props => {
         />
       ))}
     </ul>
+    
   );
 };
 

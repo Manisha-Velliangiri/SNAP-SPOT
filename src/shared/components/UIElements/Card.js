@@ -8,6 +8,7 @@ const Card = props => {
       {props.children}
     </div>
     
+    
   );
 };
 
