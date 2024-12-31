@@ -1,4 +1,4 @@
-SnapSPOT
+SnapSPOT  --  Ongoing
 
 SnapSPOT is a full-stack web application built with the MERN stack (MongoDB, Express.js, React.js, and Node.js) that allows users to discover and share hidden or local famous spots. Users can upload photos, add descriptions, and share the exact location of these spots to help others explore and enjoy them.
 -------------------------------------------------------------------------------------------------------------------------------
