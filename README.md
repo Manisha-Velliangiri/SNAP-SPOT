@@ -37,3 +37,15 @@ APIs:
 
 Authentication:
 --JWT (JSON Web Tokens).
+
+------------------------------------------------------------------------------------------------------------------------------
+## Screenshots
+
+### Quiz App Homepage
+![Homepage](./users(2288).png)
+
+### Places Display
+![Places Display](./places(2289).png)
+
+### User Login Page
+![Login Page](./Login(2290).png)
